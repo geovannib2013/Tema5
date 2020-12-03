@@ -1,0 +1,35 @@
+Universidad de Costa Rica
+
+Escuela de ingeniería Eléctrica
+
+Modelos Probabilísticos de Señales y Sistemas
+
+Elaborado por: Geovanny Bonilla Espinoza
+
+Carné: B61141
+
+Laboratorio 5
+
+Grupo : 2
+
+En el siguiente documento encontraremos la solución de las asignaciones del laboratorio 5.
+
+En dicho laboratorio se solicita ahora que el servidor no esté vacío (sin atender solicitudes) más del 10% del tiempo. Hallar el parámetro  𝜈  para satisfacer este requisito y medir la variable de interés en una simulación.
+
+Para realizar este laboratorio se utilizó y modificó el código brindado por el profesor, cambiando las variables necesarias para poder resolver el problema.
+
+Las variables cambiadas fueron lam = 2 y también sabemos de los datos del problema que se debe atender menor de 2.108 solicitudes por minuto aproximadamente para poder cumplir con el requisito.
+
+Los resultados obtenidos son los siguientes:
+
+Parámetro lambda = 2.0
+
+Parámetro nu = 2.1
+
+Tiempo con más de 0 solicitudes en fila:
+
+	 90.68%
+   
+	 Sí cumple con la especificación.
+   
+Simulación es equivalente a 8.52 horas.
